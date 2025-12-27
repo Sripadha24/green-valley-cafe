@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Valley Cafe | Official Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .bg-primary { background-color: #16a34a; }
+        .text-primary { color: #16a34a; }
+        .border-primary { border-color: #16a34a; }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-primary rounded-lg"></div>
+                <span class="text-xl font-extrabold tracking-tight">Green Valley Cafe</span>
+            </div>
+            <div class="hidden md:flex gap-8 font-medium">
+                <a href="#about" class="hover:text-primary transition">About</a>
+                <a href="#services" class="hover:text-primary transition">Services</a>
+                <a href="#contact" class="hover:text-primary transition">Contact</a>
+            </div>
+            <a href="https://wa.me/919876543210" class="bg-primary text-white px-6 py-2.5 rounded-full font-semibold hover:opacity-90 transition shadow-lg shadow-primary/20">
+                Book Now
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-32 pb-20 px-4">
+        <div class="max-w-5xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 leading-tight">Green Valley Cafe</h1>
+            <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">Experience the finest organic coffee and handcrafted pastries in the heart of the city. We pride ourselves on sourcing local ingredients and creating a cozy atmosphere for all our neighbors.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#services" class="bg-primary text-white px-8 py-4 rounded-xl font-bold text-lg hover:scale-105 transition shadow-xl shadow-primary/30">Explore Services</a>
+                <a href="tel:+91 98765 43210" class="bg-gray-100 text-gray-800 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-200 transition">Call Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-24 bg-gray-50 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <span class="text-primary font-bold uppercase tracking-widest text-sm">What We Offer</span>
+                <h2 class="text-4xl font-extrabold mt-2">Professional Services</h2>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+      <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center mb-4" style="background-color: #16a34a20">
+          <i class="fas fa-check" style="color: #16a34a"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Specialty Coffee</h3>
+        <p class="text-gray-600">High-quality professional specialty coffee tailored to your specific business needs.</p>
+      </div>
+    
+      <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center mb-4" style="background-color: #16a34a20">
+          <i class="fas fa-check" style="color: #16a34a"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Artisan Bakery</h3>
+        <p class="text-gray-600">High-quality professional artisan bakery tailored to your specific business needs.</p>
+      </div>
+    
+      <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center mb-4" style="background-color: #16a34a20">
+          <i class="fas fa-check" style="color: #16a34a"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Vegan Breakfast</h3>
+        <p class="text-gray-600">High-quality professional vegan breakfast tailored to your specific business needs.</p>
+      </div>
+    
+      <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+        <div class="w-12 h-12 rounded-full flex items-center justify-center mb-4" style="background-color: #16a34a20">
+          <i class="fas fa-check" style="color: #16a34a"></i>
+        </div>
+        <h3 class="text-xl font-bold mb-2">Event Catering</h3>
+        <p class="text-gray-600">High-quality professional event catering tailored to your specific business needs.</p>
+      </div>
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-24 px-4">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <img src="https://picsum.photos/seed/Green Valley Cafe/800/600" class="rounded-3xl shadow-2xl">
+                <div class="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl border border-gray-100 hidden lg:block">
+                    <p class="text-3xl font-black text-primary">100%</p>
+                    <p class="text-gray-500 font-medium">Customer Satisfaction</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-4xl font-extrabold mb-6">Committed to Excellence</h2>
+                <p class="text-lg text-gray-600 mb-8 leading-relaxed">We understand that every customer has unique needs. Our team is dedicated to providing personalized solutions that exceed expectations. With years of experience and a passion for what we do, Green Valley Cafe stands as a leader in the industry.</p>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-check-circle text-primary"></i>
+                        <span class="font-medium">Experienced Professionals</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-check-circle text-primary"></i>
+                        <span class="font-medium">Quality Guaranteed</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <i class="fas fa-check-circle text-primary"></i>
+                        <span class="font-medium">Affordable Pricing</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-24 bg-gray-900 text-white px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h2 class="text-4xl font-extrabold mb-12">Get In Touch</h2>
+            <div class="grid md:grid-cols-3 gap-12 mb-16">
+                <div>
+                    <i class="fas fa-phone text-3xl mb-4 text-primary"></i>
+                    <h4 class="text-xl font-bold mb-2">Phone</h4>
+                    <p class="text-gray-400">+91 98765 43210</p>
+                </div>
+                <div>
+                    <i class="fab fa-whatsapp text-3xl mb-4 text-primary"></i>
+                    <h4 class="text-xl font-bold mb-2">WhatsApp</h4>
+                    <p class="text-gray-400">Available 24/7</p>
+                    <a href="https://wa.me/919876543210" class="text-primary hover:underline mt-2 inline-block">Message Us</a>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt text-3xl mb-4 text-primary"></i>
+                    <h4 class="text-xl font-bold mb-2">Office</h4>
+                    <p class="text-gray-400">123 Garden Street, Eco Park, Bangalore - 560001</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-gray-100 px-4">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+            <p class="text-gray-500">&copy; 2025 Green Valley Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <a href="https://wa.me/919876543210" class="fixed bottom-8 right-8 bg-[#25D366] text-white p-4 rounded-full shadow-2xl hover:scale-110 transition z-50">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+</body>
+</html>
